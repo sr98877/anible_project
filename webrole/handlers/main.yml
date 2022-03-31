@@ -1,0 +1,14 @@
+---
+# handlers file for webrole
+
+
+- name: web_restart
+  service:
+          name: "{{ service_name }}"
+          state: restarted
+ 
+- name: firewall_restart
+  service:
+          name: "{{ service1_name }}"
+          state: restarted
+

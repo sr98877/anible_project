@@ -1,0 +1,11 @@
+---
+# vars file for webrole
+
+web_pack:
+        - "apache2"
+httpd_config_file: "web.conf.j2"
+service_name: "httpd"
+portn: "81"
+port_no: "81/tcp"
+service1_name: "firewalld"
+content_name: "srronak"
